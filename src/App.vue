@@ -1,11 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
+import ProfileCard from './components/profile-card.vue';
 import LightBulbWord from './components/light-bulb-word.vue';
 </script>
 
 <template>
   <LightBulbWord text="Blocklet" />
-  <HelloWorld msg="Vite + Vue + Blocklet" />
+  <ProfileCard />
   <LightBulbWord text="双击卡片编辑" align="right" size="default"/>
 </template>
 
