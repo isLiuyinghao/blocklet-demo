@@ -1,0 +1,22 @@
+:root {
+  --bgColor: black;
+  --inputColor: white;
+  --outlineColor: rgb(11, 212, 248);
+}
+
+body{
+  background: var(--bgColor);
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  align-items: center;
+  min-height: 500px;
+}
+
+
+label,
+input,
+button {
+    font-family: monospace;
+    color: var(--inputColor);
+}
